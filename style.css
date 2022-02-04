@@ -4,13 +4,35 @@ body{
     background: lightgreen;
 }
 header{
-    background-color: green;
+    background-image: linear-gradient(to bottom, #2FA766, #05361B);
     height: 200px;
 }
 
-header > nav{
-background: blue;
+header > h1{
+    text-align: center;
+    color: #fff;
 }
+
+header > p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 90px;
+}
+.menu{
+padding: 7px;
+border-radius: 5px;
+margin-left: 4px;
+
+}
+.menu:hover{
+    background-color: #2FA866;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #fff;
+}
+
 main{
     background: #fff;
     margin: auto;
