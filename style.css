@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background: lightgreen;
+}
+header{
+    background-color: green;
+    height: 200px;
+}
+
+header > nav{
+background: blue;
+}
+main{
+    background: #fff;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+    padding: 2px;
+}
+main > h1{
+    margin-top: 0px;
+}
+section > h2{
+background-color: greenyellow;
+}
+
+article > p{
+    text-align: justify;
+}
