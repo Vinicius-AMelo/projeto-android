@@ -16,8 +16,8 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom, #2FA766, #05361B);
-    height: 250px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
+    min-height: 230px;
 }
 
 header > h1{
@@ -53,9 +53,9 @@ header > p{
     background-color: #2FA866;
     color: #06341B;
 }
-header > nav{
-    padding: 73px 0px 0px 10px;
-    position: relative;
+nav{
+    padding: 10px 20px;
+    background-color: #05361B;
 }
 nav > a{
     text-decoration: none;
@@ -63,7 +63,7 @@ nav > a{
 }
 
 main{
-    max-width: 1050px;
+    max-width: 850px;
     background: #fff;
     margin: auto;
     padding: 200px;
@@ -76,6 +76,7 @@ main > h2{
     font-size: 1.8em;
     font-weight: normal;
     padding: 0px 20px;
+    color: #063d1e;
 }
 section > h2{
     background-image:linear-gradient(to right, #84E2AE, transparent);
@@ -84,7 +85,7 @@ section > h2{
     width: 800px;
     margin-left: 18px;
     padding: 0px 15px;
-
+    color: #1a5c37;
 }
 
 article{
