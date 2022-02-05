@@ -35,7 +35,8 @@ header > p{
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.600);
     color: #fff;
-    padding: 0px 360px 52px 360px;
+    margin: auto;
+    padding: 0px 10px;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,7 +53,10 @@ header > p{
     background-color: #2FA866;
     color: #06341B;
 }
-
+header > nav{
+    padding: 73px 0px 0px 10px;
+    position: relative;
+}
 nav > a{
     text-decoration: none;
     color: #fff;
@@ -91,9 +95,11 @@ article{
 article > p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
 }
 img{
     padding: 0px 20px;
+    max-width: 1050px;
 }
 
 #video{
@@ -113,24 +119,49 @@ img{
 }
 
 ul{
-    margin-left: 20px;
+    margin-left: 35px;
     columns: 2;
     position: relative;
     padding: 30px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: '\2714\00A0\00A0';
 }
 #extra > h2{
-    background-color: #05361B;
-    margin-left: 0px;
-    border-radius: 10px 10px 0px 0px;
+    background-color: #1A5C37;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
 }
 #extra{
-    background: #2FA766;
+    background: #83E1AD;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.600);
     position: relative;
     margin: 0px 30px;
     padding: 0px;
 }
-#semiroda{
+#extra > p{
+    padding: 10px 10px;
+    text-indent: 30px;
+}
+#semiroda > p{
 margin-left: 20px;
+text-indent: 30px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-color: #05361B;
+    text-align: center;
+    margin-top: 30px;
+    padding: auto;
+    color: #fff;
+    padding: 4px 0px;
+}
+
+footer > strong{
+    font-size: 1.2em;
 }
