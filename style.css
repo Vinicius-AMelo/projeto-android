@@ -17,7 +17,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, #2FA766, #05361B);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
-    min-height: 230px;
+    min-height: 150px;
 }
 
 header > h1{
