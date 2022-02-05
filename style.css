@@ -17,7 +17,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, #2FA766, #05361B);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
-    min-height: 250px;
+    min-height: 220px;
     text-align: center;
 }
 
@@ -64,9 +64,11 @@ nav > a{
 
 main{
     max-width: 1050px;
+    min-width: 300px;
     background: #fff;
     margin: auto;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
+    border-radius: 0px 0px 10px 10px;
 }
 main > h2{
     font-family: idroid;
@@ -79,7 +81,6 @@ section > h2{
     background-image:linear-gradient(to right, #84E2AE, transparent);
     font-family: idroid;
     font-weight: normal;
-    width: 800px;
     margin-left: 18px;
     padding: 0px 15px;
     color: #1a5c37;
@@ -148,7 +149,7 @@ ul{
     text-indent: 30px;
 }
 #semiroda > p{
-margin-left: 20px;
+padding: 20px 0px;
 text-indent: 30px;
 }
 
