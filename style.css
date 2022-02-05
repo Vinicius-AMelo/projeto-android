@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -18,7 +26,7 @@ header > h1{
     color: #fff;
     margin: auto;
     padding: 40px 0px 20px 0px;
-    font-family: Bebas Neue Regular;
+    font-family: bebas;
     font-size: 3em;
     font-weight: normal;
 }
@@ -86,4 +94,26 @@ article > p{
 }
 img{
     padding: 0px 20px;
+}
+
+#video{
+    background-color: #05361B;
+    margin: 0px -2px 30px -2px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul{
+    margin-left: 20px;
+    
+
 }
