@@ -40,12 +40,12 @@ header > p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .menu{
-padding: 10px 5px 10px 5px;
-border-radius: 5px;
-margin-left: 4px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-color:#85E3AF;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    margin-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:#85E3AF;
 
 }
 .menu:hover{
@@ -74,12 +74,12 @@ main > h2{
     padding: 0px 20px;
 }
 section > h2{
-background-image:linear-gradient(to right, #84E2AE, transparent);
-font-family: idroid;
-font-weight: normal;
-width: 800px;
-margin-left: 18px;
-padding: 0px 15px;
+    background-image:linear-gradient(to right, #84E2AE, transparent);
+    font-family: idroid;
+    font-weight: normal;
+    width: 800px;
+    margin-left: 18px;
+    padding: 0px 15px;
 
 }
 
@@ -114,6 +114,23 @@ img{
 
 ul{
     margin-left: 20px;
-    
-
+    columns: 2;
+    position: relative;
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#extra > h2{
+    background-color: #05361B;
+    margin-left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+#extra{
+    background: #2FA766;
+    border-radius: 10px;
+    position: relative;
+    margin: 0px 30px;
+    padding: 0px;
+}
+#semiroda{
+margin-left: 20px;
 }
