@@ -17,7 +17,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, #2FA766, #05361B);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
-    min-height: 150px;
+    min-height: 250px;
 }
 
 header > h1{
@@ -99,10 +99,13 @@ article > p{
     text-indent: 30px;
 }
 img{
-    padding: 0px 20px;
-    max-width: 1050px;
+    width: 100%;
 }
-
+#bug{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
 #video{
     background-color: #05361B;
     margin: 0px -2px 30px -2px;
